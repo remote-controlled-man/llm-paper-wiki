@@ -1,3 +1,169 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ===== 纸墨藏书楼主题 =====
+// 个性全部押在中文衬线标题上；其余元素保持安静、功能化。
+
+// ---- 阅读排版 ----
+article {
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+
+  p,
+  li {
+    line-height: 1.85;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.015em;
+}
+
+article h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+article h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+article h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+// ---- 站内链接：压平灰色药丸，改为素链 ----
+a.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-bottom: 1px solid var(--secondary);
+  }
+
+  &.tag-link {
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+    border: 1px solid var(--lightgray);
+    color: var(--darkgray);
+    font-size: 0.85em;
+
+    &:hover {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  }
+}
+
+// ---- 行内代码：细边框代替灰底 ----
+article code:not(pre code),
+p code,
+li code {
+  background: transparent;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  padding: 0.05em 0.35em;
+  font-size: 0.88em;
+  color: var(--dark);
+}
+
+// ---- 引用块 ----
+blockquote {
+  border-left: 2px solid var(--secondary);
+  padding-left: 1rem;
+  margin-left: 0;
+  color: var(--darkgray);
+  font-style: normal;
+}
+
+// ---- 表格：细线、无斑马刺 ----
+table {
+  th {
+    border-bottom: 1.5px solid var(--darkgray);
+  }
+
+  td {
+    border-bottom: 1px solid var(--lightgray);
+  }
+}
+
+// ---- 分隔线 ----
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 3rem auto;
+  width: 40%;
+}
+
+// ---- 侧栏与 chrome ----
+.page-title {
+  font-family: var(--headerFont);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.explorer,
+.toc,
+.graph {
+  h3,
+  button {
+    font-family: var(--headerFont);
+    letter-spacing: 0.02em;
+  }
+}
+
+// ---- 选中色 ----
+::selection {
+  background: var(--highlight);
+  color: var(--dark);
+}
+
+// ---- frontmatter 元信息（日期/阅读时长）降噪 ----
+.content-meta {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+
+// ---- Explorer：文件夹名降噪为墨色，hover 才用朱砂 ----
+.explorer-content {
+  .folder-container {
+    & div > a,
+    & div > button span {
+      color: var(--darkgray);
+      font-weight: 600;
+    }
+
+    & div > a:hover,
+    & div > button:hover span {
+      color: var(--secondary);
+    }
+  }
+
+  .folder-icon {
+    color: var(--gray);
+  }
+
+  ul li > a {
+    color: var(--darkgray);
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}

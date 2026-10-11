@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+
+# 论文 PDF 全文不入库（版权原因），只提交结构化笔记
+*.pdf

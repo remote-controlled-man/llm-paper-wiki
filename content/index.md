@@ -1,8 +1,8 @@
 ---
-title: HSD Paper Wiki
+title: LLM Paper Wiki
 ---
 
-# HSD Paper Wiki
+# LLM Paper Wiki
 
 一个由 LLM 维护的论文知识库（Obsidian vault → Quartz 静态站点），目前收录 **255 篇论文的结构化笔记**与 **14 个主题概念页**，方向集中在 Agents、机器人/HRI、多模态大模型、视觉感知。
 

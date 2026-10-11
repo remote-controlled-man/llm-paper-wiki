@@ -15,7 +15,7 @@
 ## 目录结构
 
 ```text
-hsd-wiki/
+paper-wiki/
   AGENTS.md            ← 本文件，schema 层
   00_Guide.md          ← 人类入口页
   arch/                ← 治理文档

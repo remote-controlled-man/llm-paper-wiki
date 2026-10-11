@@ -1,4 +1,4 @@
-# HSD Paper Wiki
+# LLM Paper Wiki
 
 一个由 LLM 维护的论文知识库：Obsidian vault + Quartz 4 静态站点，内容可双端使用。
 

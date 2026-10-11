@@ -17,7 +17,7 @@
 本库分三层，职责严格分离：
 
 ```text
-hsd-wiki/
+paper-wiki/
   AGENTS.md            ← schema 层：LLM 维护 wiki 的规约
   00_Guide.md          ← 人类入口页
   arch/                ← 治理文档（schema 层的一部分）

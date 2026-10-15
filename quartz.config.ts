@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     locale: "zh-CN",
     // TODO: 部署前替换为实际域名，例如 "<username>.github.io" 或自定义域名
     baseUrl: "remote-controlled-man.github.io/llm-paper-wiki",
-    ignorePatterns: ["private", "templates", ".obsidian", ".trash"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".trash", "arch", "AGENTS.md", "00_Guide.md"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

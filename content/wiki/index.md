@@ -1,3 +1,7 @@
+---
+title: "Wiki Index — 全库论文目录"
+---
+
 # Wiki Index — 全库论文目录
 
 > 本页由 LLM 维护：每次 ingest（新增/移动论文）后重新生成。

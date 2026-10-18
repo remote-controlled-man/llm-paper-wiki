@@ -14,7 +14,7 @@ primary_area: "01_Foundations"
 
 # U-GAT-IT
 
-原文 PDF： [[U-GAT-IT.pdf]]
+原文 PDF： [arXiv:1907.10830](https://arxiv.org/abs/1907.10830)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 

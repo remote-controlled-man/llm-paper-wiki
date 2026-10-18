@@ -15,7 +15,7 @@ primary_area: "03_Agents"
 
 # 2023-05 Voyager An Open-Ended Embodied Agent with Large Language Models 2305.16291
 
-原文 PDF： [[2023-05_Voyager_An_Open-Ended_Embodied_Agent_with_Large_Language_Models_2305.16291.pdf]]
+原文 PDF： [arXiv:2305.16291](https://arxiv.org/abs/2305.16291)
 
 所属分类：03_Agents_Memory_RAG/03_Classical_Agent_Memory_2023_2024
 

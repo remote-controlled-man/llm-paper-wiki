@@ -20,7 +20,7 @@ original_pdf_filename: "Tran_Learning_Spatiotemporal_Features_ICCV_2015_paper.pd
 
 # Tran Learning Spatiotemporal Features ICCV 2015 paper
 
-原文 PDF： [[2015_ICCV_Learning_Spatiotemporal_Features_C3D.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

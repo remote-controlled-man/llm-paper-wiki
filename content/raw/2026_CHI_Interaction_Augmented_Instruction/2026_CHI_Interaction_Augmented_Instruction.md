@@ -38,7 +38,7 @@ tags:
 - 从 66 个 Human-GenAI 交互系统里归纳出 12 个 atomic interaction paradigms。
 - 展示这个模型如何用来分析、比较、组合和生成新的交互设计。
 
-![Figure 1: paper overview](assets/fig1_overview.png)
+![Figure 1: paper overview](raw/2026_CHI_Interaction_Augmented_Instruction/assets/fig1_overview.png)
 
 图 1 的读法：
 
@@ -263,7 +263,7 @@ type AugmentedInstruction = {
 
 下面是论文 Table 1，最值得反复看。它定义了 IAI 模型里的实体和允许的关系。
 
-![Table 1: entities and relations](assets/table1_entities_relations.png)
+![Table 1: entities and relations](raw/2026_CHI_Interaction_Augmented_Instruction/assets/table1_entities_relations.png)
 
 ### 3.1 六个实体
 
@@ -310,7 +310,7 @@ Aug = intent from T + grounding from I + context from A
 - interaction 发生在调用 GenAI 之前还是之后。
 - 用户手里是否已有 artifact 可用于 grounding。
 
-![Table 2: atomic interaction paradigms](assets/table2_atomic_paradigms.png)
+![Table 2: atomic interaction paradigms](raw/2026_CHI_Interaction_Augmented_Instruction/assets/table2_atomic_paradigms.png)
 
 ### 4.1 第一组：调用 GenAI 前，prompt-only
 
@@ -494,7 +494,7 @@ ASR transcript
 
 论文给了四类用法：
 
-![Table 4: usage methods](assets/table4_usage_methods.png)
+![Table 4: usage methods](raw/2026_CHI_Interaction_Augmented_Instruction/assets/table4_usage_methods.png)
 
 用我们的话讲：
 

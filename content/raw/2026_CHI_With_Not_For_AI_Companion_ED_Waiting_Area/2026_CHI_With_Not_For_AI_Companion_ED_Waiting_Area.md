@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # With Not For AI Companion ED Waiting Area
 
-原文 PDF： [[2026_CHI_With_Not_For_AI_Companion_ED_Waiting_Area.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

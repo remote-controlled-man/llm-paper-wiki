@@ -26,7 +26,7 @@ updated: 2026-06-01
 
 # How Humans Naturally Refer to Targets
 
-原文 PDF：[[2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI.pdf]]
+原文 PDF：未随本站公开（版权原因）
 
 一句话结论：这篇比前面 audio moderator 更接近我们真正关心的 embodied interaction model。它不讲 LLM，也不讲 ChatGPT 式对话，而是研究人在自然给机器人下指令时，如何用 `speech + gaze + pointing + head movement + timing` 指代目标对象。
 
@@ -46,7 +46,7 @@ updated: 2026-06-01
 
 论文的问题是：人在自然给机器人下指令时，到底怎么指代目标对象？
 
-![Figure 1: natural target reference](assets/fig1_natural_target_reference.png)
+![Figure 1: natural target reference](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig1_natural_target_reference.png)
 
 左边是 voice-only 的笨办法：用户要说很长的描述，比如“沙发前面、卧室墙左边那个盆栽”。右边是真实交互更常见的方式：用户说“water that plant”，同时看向、指向、转头或用动作暗示目标。
 
@@ -179,7 +179,7 @@ ASR / gaze / hand / head / scene perception
 
 ### 3.1 研究采集的真实输入
 
-![Figure 3: experiment procedure and data streams](assets/fig3_experiment_procedure_data_streams.png)
+![Figure 3: experiment procedure and data streams](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig3_experiment_procedure_data_streams.png)
 
 | 输入 | 数据类型/模态 | 说明 |
 |---|---|---|
@@ -256,7 +256,7 @@ type GroundedTargetReference = {
 
 ## 4. 实验设计
 
-![Figure 2: VR experiment design](assets/fig2_vr_experiment_design.png)
+![Figure 2: VR experiment design](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig2_vr_experiment_design.png)
 
 实验是一个 `3 x 3 x 3 x 3` within-subject factorial design：
 
@@ -280,7 +280,7 @@ type GroundedTargetReference = {
 
 论文从 gaze、head 和 hand tracking 里构造了六种方向向量：
 
-![Figure 4: direction vectors](assets/fig4_direction_vectors.png)
+![Figure 4: direction vectors](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig4_direction_vectors.png)
 
 | 向量 | 含义 |
 |---|---|
@@ -336,7 +336,7 @@ Voice-only 会迫使用户说很长的描述，交互负担高，也不自然。
 
 ## 7. 语言特征：为什么 ASR 不够
 
-![Figures 5-8: speech feature patterns](assets/fig5_8_speech_feature_patterns.png)
+![Figures 5-8: speech feature patterns](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig5_8_speech_feature_patterns.png)
 
 论文把语言特征分成五类：
 
@@ -361,7 +361,7 @@ user_intent = ASR_text + gaze + pointing + head pose + scene context + timing
 
 论文把用户行为分成四类：
 
-![Figure 12: multimodal coordination patterns](assets/fig12_multimodal_coordination_patterns.png)
+![Figure 12: multimodal coordination patterns](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig12_multimodal_coordination_patterns.png)
 
 | 模式 | 数量 | 比例 | 含义 |
 |---|---:|---:|---|
@@ -395,7 +395,7 @@ user_intent = ASR_text + gaze + pointing + head pose + scene context + timing
 3. peak-interval-based method  
    先找用户最可能指向/看向目标的时间窗口，再在这个窗口里平均 gaze。
 
-![Figure 15: target localization error](assets/fig15_target_localization_error.png)
+![Figure 15: target localization error](raw/2026_CHI_How_Humans_Naturally_Refer_To_Targets_HRI/assets/fig15_target_localization_error.png)
 
 核心数字：
 

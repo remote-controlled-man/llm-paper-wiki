@@ -30,7 +30,7 @@ updated: 2026-06-01
 
 # Beyond Static Instruction
 
-原文 PDF：[[2026_CHI_Beyond_Static_Instruction_AR_Robot_Training.pdf]]
+原文 PDF：[arXiv:2603.00016v2](https://arxiv.org/abs/2603.00016v2)
 
 一句话定位：这篇不是已经跑通的“LLM 机器人老师系统”，而是一个真实实现过的 AR 机器人训练界面，加上一个计划未来接入的多 agent 自适应教学 harness 架构。
 
@@ -190,7 +190,7 @@ Output Layer 的输出被约束为 JSON schema，然后 AR app 解析这些 JSON
 
 ## 3. 关键图：AR 系统具体长什么样
 
-![Figure 1: AR visualizations](assets/fig1_ar_visualizations.png)
+![Figure 1: AR visualizations](raw/2026_CHI_Beyond_Static_Instruction_AR_Robot_Training/assets/fig1_ar_visualizations.png)
 
 Figure 1 展示了已实现系统的几个核心 AR overlay：
 
@@ -202,7 +202,7 @@ Figure 1 展示了已实现系统的几个核心 AR overlay：
 
 ## 4. 关键图：多 agent adaptive framework
 
-![Figure 2: Multi-agent framework](assets/fig2_multi_agent_framework.png)
+![Figure 2: Multi-agent framework](raw/2026_CHI_Beyond_Static_Instruction_AR_Robot_Training/assets/fig2_multi_agent_framework.png)
 
 Figure 2 是论文真正和 agent harness 相关的地方。它把 AR app 放在传感平台和执行界面的角色上，中间通过 Input / Reasoning / Output 三层来做动态适配。
 

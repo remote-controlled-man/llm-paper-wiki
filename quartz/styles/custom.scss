@@ -140,6 +140,11 @@ hr {
   font-size: 0.85rem;
 }
 
+// ---- 避免正文 H1 与页面标题重复 ----
+article.popover-hint > h1:first-child {
+  display: none;
+}
+
 // ---- Explorer：文件夹名降噪为墨色，hover 才用朱砂 ----
 .explorer-content {
   .folder-container {

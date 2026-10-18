@@ -20,7 +20,7 @@ original_pdf_filename: "Perception Consistency Ultrasound Image.pdf"
 
 # Perception Consistency Ultrasound Image
 
-原文 PDF： [[2020-12_Perception_Consistency_Ultrasound_SR_2012.14142.pdf]]
+原文 PDF： [arXiv:2012.14142](https://arxiv.org/abs/2012.14142)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

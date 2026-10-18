@@ -19,7 +19,7 @@ category: "02_CV_Perception/03_Trajectory_and_Motion_Prediction"
 
 # BiTraP
 
-原文 PDF： [[2021_RAL_BiTraP_Bidirectional_Trajectory_Prediction.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/03_Trajectory_and_Motion_Prediction
 

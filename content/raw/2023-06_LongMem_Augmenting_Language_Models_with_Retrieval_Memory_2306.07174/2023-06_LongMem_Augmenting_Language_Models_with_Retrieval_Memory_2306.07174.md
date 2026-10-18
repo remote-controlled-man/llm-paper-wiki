@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2023-06 LongMem Augmenting Language Models with Retrieval Memory 2306.07174
 
-原文 PDF： [[2023-06_LongMem_Augmenting_Language_Models_with_Retrieval_Memory_2306.07174.pdf]]
+原文 PDF： [arXiv:2306.07174](https://arxiv.org/abs/2306.07174)
 
 所属分类：03_Agents_Memory_RAG/03_Classical_Agent_Memory_2023_2024
 

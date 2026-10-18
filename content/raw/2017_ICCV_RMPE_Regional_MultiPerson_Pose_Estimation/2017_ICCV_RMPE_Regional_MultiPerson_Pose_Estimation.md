@@ -20,7 +20,7 @@ original_pdf_filename: "Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf"
 
 # Fang RMPE Regional Multi-Person ICCV 2017 paper
 
-原文 PDF： [[2017_ICCV_RMPE_Regional_MultiPerson_Pose_Estimation.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

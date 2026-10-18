@@ -20,7 +20,7 @@ primary_area: "03_Agents"
 
 # Survey Memory Mechanism LLM Agents
 
-原文 PDF： [[2024-04_Survey_Memory_Mechanism_LLM_Agents_2404.13501.pdf]]
+原文 PDF： [arXiv:2404.13501](https://arxiv.org/abs/2404.13501)
 
 所属分类：基础综述
 

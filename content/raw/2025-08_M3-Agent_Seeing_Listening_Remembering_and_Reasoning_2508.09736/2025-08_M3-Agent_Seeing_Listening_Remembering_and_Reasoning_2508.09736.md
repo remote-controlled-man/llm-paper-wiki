@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2025-08 M3-Agent Seeing Listening Remembering and Reasoning 2508.09736
 
-原文 PDF： [[2025-08_M3-Agent_Seeing_Listening_Remembering_and_Reasoning_2508.09736.pdf]]
+原文 PDF： [arXiv:2508.09736](https://arxiv.org/abs/2508.09736)
 
 所属分类：03_Agents_Memory_RAG/04_Frontier_Agent_Memory_2025_2026
 

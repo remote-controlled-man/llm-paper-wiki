@@ -30,7 +30,7 @@ updated: 2026-06-01
 
 # Prototyping Multimodal GenAI Real-Time Agents
 
-原文 PDF：[[2026_CHI_Prototyping_Multimodal_GenAI_RealTime_Agents.pdf]]
+原文 PDF：[arXiv:2510.06872v1](https://arxiv.org/abs/2510.06872v1)
 
 一句话定位：这篇不是训练一个 Thinking Machines 那种原生 interaction model，而是在讲当我们用 GPT-4o / VLM + prompt + harness 做实时多模态 agent 时，怎样通过回放、人工接管、标注和迭代，把 agent 的交互行为调出来。
 
@@ -207,7 +207,7 @@ Figure 5 的 wizard interface 里能看到 `Session ID`、`Max Timestamp`、`Sel
 
 ## 3. 关键图 1：Counterfactual Replay Toolkit
 
-![Figure 1: Counterfactual Replay Prompt Evaluation Toolkit](assets/fig1_counterfactual_replay_toolkit.png)
+![Figure 1: Counterfactual Replay Prompt Evaluation Toolkit](raw/2026_CHI_Prototyping_Multimodal_GenAI_RealTime_Agents/assets/fig1_counterfactual_replay_toolkit.png)
 
 这个图说明了最核心的工具链：
 
@@ -221,7 +221,7 @@ Figure 5 的 wizard interface 里能看到 `Session ID`、`Max Timestamp`、`Sel
 
 ## 4. 关键图 2：SocraBot 用户界面
 
-![Figure 2: SocraBot front-end user interface](assets/fig2_socrabot_frontend.png)
+![Figure 2: SocraBot front-end user interface](raw/2026_CHI_Prototyping_Multimodal_GenAI_RealTime_Agents/assets/fig2_socrabot_frontend.png)
 
 SocraBot 的用户侧不是复杂机器人，而是一个 overlay GUI。用户在 Fusion 360 里做机械设计任务时，SocraBot 在旁边弹出 question / suggestion，并且用语音读出来。
 
@@ -229,7 +229,7 @@ SocraBot 的用户侧不是复杂机器人，而是一个 overlay GUI。用户�
 
 ## 5. 关键图 3：prompt / context pipeline 如何演化
 
-![Figure 3: Prototyping process and prompt evolution](assets/fig3_prototyping_process.png)
+![Figure 3: Prototyping process and prompt evolution](raw/2026_CHI_Prototyping_Multimodal_GenAI_RealTime_Agents/assets/fig3_prototyping_process.png)
 
 这张图是整篇最重要的架构图。作者一开始尝试 tabular comparison，发现只看表格里的回复很肤浅，因为缺少具体时间上下文。然后改成 counterfactual replay，把 prompt 放回 recorded user session 里测试。
 
@@ -250,7 +250,7 @@ stage 2: generate phase-specific support message
 
 ## 6. 关键图 4：Hybrid WoZ 和结果表
 
-![Figure 5 and Table 2: Hybrid Wizard-of-Oz setup and results](assets/fig5_hybrid_woz_and_table2_results.png)
+![Figure 5 and Table 2: Hybrid Wizard-of-Oz setup and results](raw/2026_CHI_Prototyping_Multimodal_GenAI_RealTime_Agents/assets/fig5_hybrid_woz_and_table2_results.png)
 
 Hybrid WoZ 界面里，wizard 可以：
 

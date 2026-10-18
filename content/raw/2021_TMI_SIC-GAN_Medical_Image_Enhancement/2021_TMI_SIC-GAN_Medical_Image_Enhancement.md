@@ -20,7 +20,7 @@ original_pdf_filename: "Structure_and_Illumination_Constrained_GAN_for_Medical_I
 
 # Structure and Illumination Constrained GAN for Medical Image Enhancement
 
-原文 PDF： [[2021_TMI_SIC-GAN_Medical_Image_Enhancement.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

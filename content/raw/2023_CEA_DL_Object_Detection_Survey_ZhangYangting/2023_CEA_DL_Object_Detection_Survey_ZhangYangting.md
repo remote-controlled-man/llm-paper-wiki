@@ -20,7 +20,7 @@ original_pdf_filename: "基于深度学习的目标检测算法研究与应用�
 
 # 基于深度学习的目标检测算法研究与应用综述 张阳婷
 
-原文 PDF： [[2023_CEA_DL_Object_Detection_Survey_ZhangYangting.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/01_Object_Detection
 

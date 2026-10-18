@@ -21,7 +21,7 @@ last_reviewed: "2026-06-08"
 
 Qwen2.5-Omni 是一个实时 omni 交互底座：它把 text / image / video / audio 输入统一进 Thinker，再由 Talker 同步生成文本和自然语音；但它不输出 robot action，不是 VLA，也不是 agent harness，真正适合放在我们系统里的位置是“实时音视频理解 + 语音交互层”。
 
-![Thinker-Talker architecture](assets/fig2_thinker_talker_architecture.png)
+![Thinker-Talker architecture](raw/2025_Qwen2_5_Omni_Technical_Report/assets/fig2_thinker_talker_architecture.png)
 
 ## 它在这条阅读路线里的位置
 
@@ -70,7 +70,7 @@ Talker 是语音生成模块。它不是独立 TTS，而是直接接收 Thinker 
 
 ### 2. TMRoPE 和音画交错
 
-![TMRoPE and time interleaving](assets/fig3_tmrope_time_interleaving.png)
+![TMRoPE and time interleaving](raw/2025_Qwen2_5_Omni_Technical_Report/assets/fig3_tmrope_time_interleaving.png)
 
 TMRoPE 是 Time-aligned Multimodal RoPE。它把位置编码拆成 temporal、height、width 三个分量。
 
@@ -99,7 +99,7 @@ TMRoPE 是 Time-aligned Multimodal RoPE。它把位置编码拆成 temporal、he
 - Codec-to-wav 用 Flow-Matching DiT，把 receptive field 限制在滑动窗口里。
 - DiT 的窗口包括 2 个 lookback blocks、当前 block、1 个 lookahead block，总计 4 blocks。
 
-![Sliding-window DiT](assets/fig4_sliding_window_dit.png)
+![Sliding-window DiT](raw/2025_Qwen2_5_Omni_Technical_Report/assets/fig4_sliding_window_dit.png)
 
 ## 输入、输出、数据类型、模态
 
@@ -739,7 +739,7 @@ $$
 
 ### Video 和 OmniBench 评测
 
-![Video and multimodality evaluation](assets/table7_8_video_multimodality_eval.png)
+![Video and multimodality evaluation](raw/2025_Qwen2_5_Omni_Technical_Report/assets/table7_8_video_multimodality_eval.png)
 
 几个对我们有用的结果：
 

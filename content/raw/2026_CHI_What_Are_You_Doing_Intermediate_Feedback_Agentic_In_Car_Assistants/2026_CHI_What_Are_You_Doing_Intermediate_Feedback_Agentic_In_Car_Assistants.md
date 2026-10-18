@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # What Are You Doing Intermediate Feedback Agentic In Car Assistants
 
-原文 PDF： [[2026_CHI_What_Are_You_Doing_Intermediate_Feedback_Agentic_In_Car_Assistants.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：Agent Harness：控制与透明度
 

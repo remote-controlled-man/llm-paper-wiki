@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # RECALLbot Agentic Memory Reciprocal Disclosure
 
-原文 PDF： [[2026_CHI_RECALLbot_Agentic_Memory_Reciprocal_Disclosure.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

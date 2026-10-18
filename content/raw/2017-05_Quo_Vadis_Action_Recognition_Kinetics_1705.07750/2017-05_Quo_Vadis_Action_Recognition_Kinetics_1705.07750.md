@@ -20,7 +20,7 @@ original_pdf_filename: "Quo Vadis, Action Recognition_A New Model and the Kineti
 
 # Quo Vadis, Action Recognition A New Model and the Kinetics Dataset
 
-原文 PDF： [[2017-05_Quo_Vadis_Action_Recognition_Kinetics_1705.07750.pdf]]
+原文 PDF： [arXiv:1705.07750](https://arxiv.org/abs/1705.07750)
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

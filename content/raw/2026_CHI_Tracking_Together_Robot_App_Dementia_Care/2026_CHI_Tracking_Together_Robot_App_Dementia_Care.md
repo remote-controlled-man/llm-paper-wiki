@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Tracking Together Robot App Dementia Care
 
-原文 PDF： [[2026_CHI_Tracking_Together_Robot_App_Dementia_Care.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

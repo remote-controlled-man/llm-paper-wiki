@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Negotiating Real World Domestic Service Robotics
 
-原文 PDF： [[2026_CHI_Negotiating_Real_World_Domestic_Service_Robotics.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：机器人行为与 HRI 表达
 

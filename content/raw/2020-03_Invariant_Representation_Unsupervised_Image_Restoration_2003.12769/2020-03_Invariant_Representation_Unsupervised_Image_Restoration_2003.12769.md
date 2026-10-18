@@ -20,7 +20,7 @@ original_pdf_filename: "Learning Invariant Representation for Unsupervised Image
 
 # Learning Invariant Representation for Unsupervised Image Restoration
 
-原文 PDF： [[2020-03_Invariant_Representation_Unsupervised_Image_Restoration_2003.12769.pdf]]
+原文 PDF： [arXiv:2003.12769](https://arxiv.org/abs/2003.12769)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

@@ -20,7 +20,7 @@ original_pdf_filename: "Temporal Segment Networks for Action.pdf"
 
 # Temporal Segment Networks for Action
 
-原文 PDF： [[2019_TPAMI_Temporal_Segment_Networks.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

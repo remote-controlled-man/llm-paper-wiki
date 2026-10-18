@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2025-07 Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents 2507.22925
 
-原文 PDF： [[2025-07_Hierarchical_Memory_for_Long_Term_Reasoning_in_LLM_Agents_2507.22925.pdf]]
+原文 PDF： [arXiv:2507.22925](https://arxiv.org/abs/2507.22925)
 
 所属分类：03_Agents_Memory_RAG/04_Frontier_Agent_Memory_2025_2026
 

@@ -20,7 +20,7 @@ original_pdf_filename: "Transformer Networks for Trajectory Forecasting.pdf"
 
 # Transformer Networks for Trajectory Forecasting
 
-原文 PDF： [[2020-03_Transformer_Networks_Trajectory_Forecasting_2003.08111.pdf]]
+原文 PDF： [arXiv:2003.08111](https://arxiv.org/abs/2003.08111)
 
 所属分类：02_CV_Perception/03_Trajectory_and_Motion_Prediction
 

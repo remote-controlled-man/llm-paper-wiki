@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2025-06 MEM1 Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents 2506.15841
 
-原文 PDF： [[2025-06_MEM1_Learning_to_Synergize_Memory_and_Reasoning_2506.15841.pdf]]
+原文 PDF： [arXiv:2506.15841](https://arxiv.org/abs/2506.15841)
 
 所属分类：03_Agents_Memory_RAG/04_Frontier_Agent_Memory_2025_2026
 

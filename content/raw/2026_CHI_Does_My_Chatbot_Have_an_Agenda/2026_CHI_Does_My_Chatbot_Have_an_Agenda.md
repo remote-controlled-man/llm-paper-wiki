@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Does My Chatbot Have an Agenda
 
-原文 PDF： [[2026_CHI_Does_My_Chatbot_Have_an_Agenda.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

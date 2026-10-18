@@ -20,7 +20,7 @@ original_pdf_filename: "Quality-aware Unpaired Image-to-Image Translation.pdf"
 
 # Quality-aware Unpaired Image-to-Image Translation
 
-原文 PDF： [[2019-03_Quality-aware_Unpaired_I2I_Translation_1903.06399.pdf]]
+原文 PDF： [arXiv:1903.06399](https://arxiv.org/abs/1903.06399)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

@@ -20,7 +20,7 @@ original_pdf_filename: "OpenPose_Realtime Multi-Person 2D Pose.pdf"
 
 # OpenPose Realtime Multi-Person 2D Pose
 
-原文 PDF： [[2018-12_OpenPose_Realtime_MultiPerson_2D_Pose_1812.08008.pdf]]
+原文 PDF： [arXiv:1812.08008](https://arxiv.org/abs/1812.08008)
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

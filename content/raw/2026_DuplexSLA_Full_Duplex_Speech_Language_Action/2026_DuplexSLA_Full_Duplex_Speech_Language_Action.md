@@ -48,7 +48,7 @@ DuplexSLA 的问题定义是：能不能让一个模型在持续语音对话中�
 - `Assistant Channel`: 助手语音输出，离散化成 TA4 格式。
 - `Action Channel`: 文本 action stream，承载 delayed transcript、planning text、turn-taking labels、structured tool calls。
 
-![DuplexSLA chunk-level architecture](assets/fig1_duplexsla_chunk_architecture.png)
+![DuplexSLA chunk-level architecture](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/fig1_duplexsla_chunk_architecture.png)
 
 每个 chunk 是 160 ms。模型在每个 chunk 上看用户当前音频和历史上下文，然后自回归地预测下一段助手语音和 action text。
 
@@ -185,7 +185,7 @@ DuplexSLA 更像：
 
 ### Figure 2: pause / interrupt / backchannel 的区别
 
-![Native interaction-control behaviours](assets/fig2_native_interaction_control.png)
+![Native interaction-control behaviours](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/fig2_native_interaction_control.png)
 
 这张图不是在给一个明确的手写算法，比如“停顿超过 300 ms 就算 pause”。它真正想表达的是：同样是用户在助手说话中发出声音，系统不能只靠“有没有人声”来判断，而要根据语义判断用户是在停顿、抢话，还是只是短反馈。
 
@@ -201,7 +201,7 @@ DuplexSLA 更像：
 
 ### Figure 3: action channel 中的 planning + tool call
 
-![Planning and tool-call integration](assets/fig3_planning_tool_call_action_channel.png)
+![Planning and tool-call integration](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/fig3_planning_tool_call_action_channel.png)
 
 这里最贴近 interaction model。图里有两种模式：
 
@@ -212,7 +212,7 @@ DuplexSLA 更像：
 
 ### Table 1: 系统级摘要
 
-![System-level summary](assets/table1_system_summary.png)
+![System-level summary](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/table1_system_summary.png)
 
 几个关键数字：
 
@@ -225,7 +225,7 @@ DuplexSLA 更像：
 
 ### Figure 4: 数据构造流程
 
-![Data construction pipeline](assets/fig4_data_construction_pipeline.png)
+![Data construction pipeline](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/fig4_data_construction_pipeline.png)
 
 这张图很重要，因为它说明 DuplexSLA 并不是凭空从真实交互里学出来的。先把几个容易卡住的词讲清楚：
 
@@ -337,7 +337,7 @@ DuplexSLA: 额外学显式 action/control label 的触发时机。
 
 ### Figure 5: 训练数据比例
 
-![Audio-data distribution](assets/fig5_audio_data_distribution.png)
+![Audio-data distribution](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/fig5_audio_data_distribution.png)
 
 论文给出的训练量：
 
@@ -350,7 +350,7 @@ DuplexSLA: 额外学显式 action/control label 的触发时机。
 
 ### Table 5: 工具调用结果
 
-![Tool-call results](assets/table5_tool_call_results.png)
+![Tool-call results](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/table5_tool_call_results.png)
 
 在 DuplexSLA-Bench 的 900 个 tool-call cases 上：
 
@@ -362,9 +362,9 @@ DuplexSLA: 额外学显式 action/control label 的触发时机。
 
 ### Table 6 / 7: turn-taking 结果
 
-![Turn-taking with context prefill](assets/table6_turn_taking_context_prefill.png)
+![Turn-taking with context prefill](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/table6_turn_taking_context_prefill.png)
 
-![Turn-taking without context prefill](assets/table7_turn_taking_no_prefill.png)
+![Turn-taking without context prefill](raw/2026_DuplexSLA_Full_Duplex_Speech_Language_Action/assets/table7_turn_taking_no_prefill.png)
 
 在 context-prefill 设置下，DuplexSLA 的 pause / interrupt / backchannel 都是高准确、低延迟，尤其 backchannel 98.33%，而 Gemini / GPT Realtime 在 backchannel 上显著弱。
 

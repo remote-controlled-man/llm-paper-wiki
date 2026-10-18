@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Relational Gains Privacy Strains ChatGPT Memory
 
-原文 PDF： [[2026_CHI_Relational_Gains_Privacy_Strains_ChatGPT_Memory.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

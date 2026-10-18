@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Who Controls The Conversation System Prompts
 
-原文 PDF： [[2026_CHI_Who_Controls_The_Conversation_System_Prompts.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：Agent Harness：控制与透明度
 

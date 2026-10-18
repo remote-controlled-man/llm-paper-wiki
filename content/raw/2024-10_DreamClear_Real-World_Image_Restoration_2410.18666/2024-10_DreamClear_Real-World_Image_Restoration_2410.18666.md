@@ -20,7 +20,7 @@ original_pdf_filename: "DreamClear High-Capacity Real-World Image.pdf"
 
 # DreamClear High-Capacity Real-World Image
 
-原文 PDF： [[2024-10_DreamClear_Real-World_Image_Restoration_2410.18666.pdf]]
+原文 PDF： [arXiv:2410.18666](https://arxiv.org/abs/2410.18666)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

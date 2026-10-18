@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Calls Of Care Dementia Conversational Agents
 
-原文 PDF： [[2026_CHI_Calls_Of_Care_Dementia_Conversational_Agents.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

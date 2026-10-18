@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Social Robots for Long Term Interaction Survey
 
-原文 PDF： [[2013_Social_Robots_for_Long_Term_Interaction_Survey.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：基础综述
 

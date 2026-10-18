@@ -20,7 +20,7 @@ original_pdf_filename: "s11042-022-13153-y.pdf"
 
 # s11042-022-13153-y
 
-原文 PDF： [[2022_MTAP_Object_Detection_Review.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/01_Object_Detection
 

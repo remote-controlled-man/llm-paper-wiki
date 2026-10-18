@@ -15,7 +15,7 @@ primary_area: "01_Foundations"
 
 # WassersteinGAN
 
-原文 PDF： [[WassersteinGAN.pdf]]
+原文 PDF： [arXiv:1701.07875](https://arxiv.org/abs/1701.07875)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 

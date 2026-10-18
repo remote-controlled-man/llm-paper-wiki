@@ -20,7 +20,7 @@ original_pdf_filename: "A Review of Human Action Recognition in Video.pdf"
 
 # A Review of Human Action Recognition in Video
 
-原文 PDF： [[2018_IEEE_Review_Human_Action_Recognition_Video.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

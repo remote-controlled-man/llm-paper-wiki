@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Proactive Proxies VR Bystander Interruptions
 
-原文 PDF： [[2026_CHI_Proactive_Proxies_VR_Bystander_Interruptions.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：多模态具身感知
 

@@ -20,7 +20,7 @@ original_pdf_filename: "ConvolutionalLSTMNetwork_AMachineLearning ApproachforPre
 
 # ConvolutionalLSTMNetwork AMachineLearning ApproachforPrecipitationNowcasting
 
-原文 PDF： [[2015-06_ConvLSTM_Precipitation_Nowcasting_1506.04214.pdf]]
+原文 PDF： [arXiv:1506.04214](https://arxiv.org/abs/1506.04214)
 
 所属分类：02_CV_Perception/06_Spatiotemporal_Modeling
 

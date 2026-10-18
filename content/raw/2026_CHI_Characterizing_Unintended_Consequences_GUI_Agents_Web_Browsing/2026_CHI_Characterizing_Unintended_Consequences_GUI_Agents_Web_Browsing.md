@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Characterizing Unintended Consequences GUI Agents Web Browsing
 
-原文 PDF： [[2026_CHI_Characterizing_Unintended_Consequences_GUI_Agents_Web_Browsing.pdf]]
+原文 PDF： [arXiv:2505.09875v2](https://arxiv.org/abs/2505.09875v2)
 
 所属分类：Agent Harness：控制与透明度
 

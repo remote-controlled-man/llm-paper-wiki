@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Grand Challenges Computers Control Over Bodies
 
-原文 PDF： [[2026_CHI_Grand_Challenges_Computers_Control_Over_Bodies.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：机器人行为与 HRI 表达
 

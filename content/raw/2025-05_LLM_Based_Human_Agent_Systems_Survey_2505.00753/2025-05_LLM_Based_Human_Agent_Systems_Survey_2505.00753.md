@@ -20,7 +20,7 @@ primary_area: "03_Agents"
 
 # Survey LLM Based Human Agent Systems
 
-原文 PDF： [[2025-05_LLM_Based_Human_Agent_Systems_Survey_2505.00753.pdf]]
+原文 PDF： [arXiv:2505.00753](https://arxiv.org/abs/2505.00753)
 
 所属分类：基础综述
 

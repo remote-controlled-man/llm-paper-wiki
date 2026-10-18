@@ -51,7 +51,7 @@ AURA 认为 streaming visual interaction 有两个核心挑战：
 - Proactive QA：用户先提出观察目标，模型先沉默，等后面证据出现再回答一次。
 - Multi-Response QA：用户提出持续观察任务，模型在后续事件变化时多次回答。
 
-![AURA 三种 streaming QA 类型](assets/fig2_streaming_qa_types.png)
+![AURA 三种 streaming QA 类型](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/fig2_streaming_qa_types.png)
 
 ## 方法 / 系统怎么做
 
@@ -76,7 +76,7 @@ AURA 把连续视频切成小时间块，论文实验里 chunk size 是 1 秒。
 
 QA group 指的是一个 user question 和它后续所有 non-silent assistant responses。窗口外的旧视频 chunk 和 `<|silent|>` 会被丢掉，只保留有效文本问答。这能让模型既看最近画面，又不完全丢失用户的长期意图。
 
-![AURA 交互视频流上下文管理](assets/fig1_context_management.png)
+![AURA 交互视频流上下文管理](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/fig1_context_management.png)
 
 ### 3. Coarse-to-Fine Streaming Data Engine
 
@@ -88,7 +88,7 @@ QA group 指的是一个 user question 和它后续所有 non-silent assistant r
 4. Streaming Structuring：把时间戳 QA 转成 chunk-wise 对话格式，并按双滑窗截断；训练样本以目标回答时间为 anchor，只监督目标回答。
 5. Quality Verification：检查窗口截断后，剩下的视频和历史文本是否仍足够支持目标答案，避免答案依赖已被截掉的画面。
 
-![AURA 数据构建流程](assets/fig3_data_engine.png)
+![AURA 数据构建流程](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/fig3_data_engine.png)
 
 ## 输入、输出、数据类型、模态
 
@@ -161,7 +161,7 @@ AURA 主模型基于 `Qwen3-VL-8B-Instruct`。论文明确说训练时只 fine-t
 - H.264 重新编码，减少 codec 不一致和坏帧问题。
 - 视频域分布见 Figure 5：Sport 19.4%、Life 16.1%、Documentary 12.8%、Knowledge 12.4%、Show 11.3%、Movie 10.3%、Course 7.1%、Game 5.3%、Animation 5.1%。
 
-![AURA 训练数据分布](assets/fig5_training_data_distribution.png)
+![AURA 训练数据分布](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/fig5_training_data_distribution.png)
 
 ### QA 合成的逻辑
 
@@ -224,7 +224,7 @@ Multi-Response QA 另一条流水线：
 
 论文的做法是给 silent message 降权：
 
-![Silent-Speech Balanced Loss 公式](assets/formula1_silent_speech_balanced_loss.png)
+![Silent-Speech Balanced Loss 公式](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/formula1_silent_speech_balanced_loss.png)
 
 Obsidian 可读版：
 
@@ -262,7 +262,7 @@ $$
 - 如果输出 `<|silent|>`，系统不说话。
 - 如果输出文本，文本进入 streaming TTS，并同时把文本回答写回上下文。
 
-![AURA 实时推理系统](assets/fig4_realtime_inference_system.png)
+![AURA 实时推理系统](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/fig4_realtime_inference_system.png)
 
 为了降低延迟，AURA 不是每个 chunk 都把所有历史重算一遍。论文使用：
 
@@ -287,7 +287,7 @@ $$
 
 最值得我们看的是 ablation：把 Silent-Speech Balanced Loss 换成普通 CE，会严重损害 proactive alerting。
 
-![Silent-Speech Balanced Loss ablation](assets/table6_loss_ablation.png)
+![Silent-Speech Balanced Loss ablation](raw/2026_AURA_Proactive_Audio_Visual_Interaction/assets/table6_loss_ablation.png)
 
 表里最关键的变化：
 

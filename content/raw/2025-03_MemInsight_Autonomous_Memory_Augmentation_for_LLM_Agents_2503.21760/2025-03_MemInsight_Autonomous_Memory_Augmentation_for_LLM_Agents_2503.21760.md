@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2025-03 MemInsight Autonomous Memory Augmentation for LLM Agents 2503.21760
 
-原文 PDF： [[2025-03_MemInsight_Autonomous_Memory_Augmentation_for_LLM_Agents_2503.21760.pdf]]
+原文 PDF： [arXiv:2503.21760](https://arxiv.org/abs/2503.21760)
 
 所属分类：03_Agents_Memory_RAG/04_Frontier_Agent_Memory_2025_2026
 

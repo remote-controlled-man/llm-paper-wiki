@@ -226,7 +226,7 @@ Moshi 自己的 text tokens 也一起生成，用来提高语言质量
 
 ## 2. Moshi 的总架构
 
-![Moshi overview](assets/fig1_moshi_overview.png)
+![Moshi overview](raw/2024_Moshi_Speech_Text_Foundation_Model_RealTime_Dialogue/assets/fig1_moshi_overview.png)
 
 图 1 可以按三层看：
 
@@ -277,7 +277,7 @@ Mimi 是 Moshi 的音频 codec。
 waveform -> encoder -> quantizer -> discrete audio tokens -> decoder -> waveform
 ```
 
-![Mimi codec](assets/fig2_mimi_codec.png)
+![Mimi codec](raw/2024_Moshi_Speech_Text_Foundation_Model_RealTime_Dialogue/assets/fig2_mimi_codec.png)
 
 论文里关键参数：
 
@@ -308,7 +308,7 @@ waveform -> encoder -> quantizer -> discrete audio tokens -> decoder -> waveform
 
 ## 4. RQ-Transformer 是什么？
 
-![RQ-Transformer](assets/fig3_rq_transformer.png)
+![RQ-Transformer](raw/2024_Moshi_Speech_Text_Foundation_Model_RealTime_Dialogue/assets/fig3_rq_transformer.png)
 
 Mimi 每秒输出 12.5 帧，每帧有 8 个 codebook token。
 
@@ -358,7 +358,7 @@ Moshi stream: 系统自己说了什么
 
 Moshi 明确把这两路分开建模。
 
-![Moshi joint sequence](assets/fig4_joint_sequence_multistream.png)
+![Moshi joint sequence](raw/2024_Moshi_Speech_Text_Foundation_Model_RealTime_Dialogue/assets/fig4_joint_sequence_multistream.png)
 
 这张图最重要。
 

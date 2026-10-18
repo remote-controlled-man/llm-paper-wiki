@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # From Tool To Partner Expressive Behaviors HRC
 
-原文 PDF： [[2026_CHI_From_Tool_To_Partner_Expressive_Behaviors_HRC.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：机器人行为与 HRI 表达
 

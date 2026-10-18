@@ -20,7 +20,7 @@ original_pdf_filename: "SGCN_CVPR_2021_paper.pdf"
 
 # SGCN CVPR 2021 paper
 
-原文 PDF： [[2021_CVPR_SGCN_Sparse_Graph_Conv_Trajectory.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/03_Trajectory_and_Motion_Prediction
 

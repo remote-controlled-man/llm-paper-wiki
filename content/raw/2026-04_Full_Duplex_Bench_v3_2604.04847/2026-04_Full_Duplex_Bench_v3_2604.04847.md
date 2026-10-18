@@ -75,7 +75,7 @@ Book me a flight um... to New York — actually, wait... make that Boston.
 
 这篇就是把这些能力做成了一个 benchmark。
 
-![FDB-v3 framework](assets/fig1_fdb_v3_framework.png)
+![FDB-v3 framework](raw/2026-04_Full_Duplex_Bench_v3_2604.04847/assets/fig1_fdb_v3_framework.png)
 
 ## 2. STAR 速读
 
@@ -245,7 +245,7 @@ Book me a flight um... to New York — actually, wait... make that Boston.
 
 ## 5. 总结果怎么读？
 
-![Overall performance and turn-taking](assets/table2_overall_performance_turn_taking.png)
+![Overall performance and turn-taking](raw/2026-04_Full_Duplex_Bench_v3_2604.04847/assets/table2_overall_performance_turn_taking.png)
 
 ### 5.1 GPT-Realtime
 
@@ -305,7 +305,7 @@ Whisper -> GPT-4o -> OpenAI TTS
 
 ## 6. Disfluency / difficulty / domain
 
-![Disfluency and difficulty breakdown](assets/table3_4_disfluency_difficulty.png)
+![Disfluency and difficulty breakdown](raw/2026-04_Full_Duplex_Bench_v3_2604.04847/assets/table3_4_disfluency_difficulty.png)
 
 ### 6.1 Self-correction 最难
 
@@ -332,7 +332,7 @@ Hard 场景中：
 
 这说明多步 reasoning + disfluent speech 仍然是明显短板。
 
-![Domain and latency breakdown](assets/table5_6_domain_latency.png)
+![Domain and latency breakdown](raw/2026-04_Full_Duplex_Bench_v3_2604.04847/assets/table5_6_domain_latency.png)
 
 ### 6.3 Finance 最容易，Housing 最难
 
@@ -345,7 +345,7 @@ Finance 最高，Housing 最低。
 
 ## 7. 两个 case study 很关键
 
-![Case studies](assets/table7_8_case_studies.png)
+![Case studies](raw/2026-04_Full_Duplex_Bench_v3_2604.04847/assets/table7_8_case_studies.png)
 
 ### 7.1 Case 1：没有 disfluency 的三步 finance chain
 

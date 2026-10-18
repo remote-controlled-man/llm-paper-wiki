@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Human Pragmatic Language To CA Design Review
 
-原文 PDF： [[2026_CHI_Human_Pragmatic_Language_To_CA_Design_Review.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：交互模型：指令与 Grounding
 

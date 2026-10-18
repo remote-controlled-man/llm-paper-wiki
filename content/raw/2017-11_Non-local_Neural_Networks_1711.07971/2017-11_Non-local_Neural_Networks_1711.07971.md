@@ -20,7 +20,7 @@ original_pdf_filename: "Non-local Neural Networks.pdf"
 
 # Non-local Neural Networks
 
-原文 PDF： [[2017-11_Non-local_Neural_Networks_1711.07971.pdf]]
+原文 PDF： [arXiv:1711.07971](https://arxiv.org/abs/1711.07971)
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

@@ -15,7 +15,7 @@ primary_area: "03_Agents"
 
 # 2023-03 Reflexion Language Agents with Verbal Reinforcement Learning 2303.11366
 
-原文 PDF： [[2023-03_Reflexion_Language_Agents_with_Verbal_Reinforcement_Learning_2303.11366.pdf]]
+原文 PDF： [arXiv:2303.11366](https://arxiv.org/abs/2303.11366)
 
 所属分类：03_Agents_Memory_RAG/03_Classical_Agent_Memory_2023_2024
 

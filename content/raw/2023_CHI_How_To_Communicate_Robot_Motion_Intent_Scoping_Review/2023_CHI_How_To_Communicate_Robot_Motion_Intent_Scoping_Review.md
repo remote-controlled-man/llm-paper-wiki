@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # How To Communicate Robot Motion Intent Scoping Review
 
-原文 PDF： [[2023_CHI_How_To_Communicate_Robot_Motion_Intent_Scoping_Review.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：基础综述
 

@@ -20,7 +20,7 @@ original_pdf_filename: "UVCGAN.pdf"
 
 # UVCGAN
 
-原文 PDF： [[2022-03_UVCGAN_UNet_ViT_CycleGAN_2203.02557.pdf]]
+原文 PDF： [arXiv:2203.02557](https://arxiv.org/abs/2203.02557)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

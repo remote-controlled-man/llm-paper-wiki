@@ -15,7 +15,7 @@ primary_area: "03_Agents"
 
 # 2023-04 Generative Agents Interactive Simulacra of Human Behavior 2304.03442
 
-原文 PDF： [[2023-04_Generative_Agents_Interactive_Simulacra_of_Human_Behavior_2304.03442.pdf]]
+原文 PDF： [arXiv:2304.03442](https://arxiv.org/abs/2304.03442)
 
 所属分类：03_Agents_Memory_RAG/03_Classical_Agent_Memory_2023_2024
 

@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # HiSync Long Range HRI Command Source Identification
 
-原文 PDF： [[2026_CHI_HiSync_Long_Range_HRI_Command_Source_Identification.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：多模态具身感知
 

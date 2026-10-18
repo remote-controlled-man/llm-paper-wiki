@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2023-10 MemGPT Towards LLMs as Operating Systems 2310.08560
 
-原文 PDF： [[2023-10_MemGPT_Towards_LLMs_as_Operating_Systems_2310.08560.pdf]]
+原文 PDF： [arXiv:2310.08560](https://arxiv.org/abs/2310.08560)
 
 所属分类：03_Agents_Memory_RAG/03_Classical_Agent_Memory_2023_2024
 

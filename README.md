@@ -65,6 +65,12 @@ llm-paper-wiki/
 
 新增论文、概念页、综述的流程由 `content/AGENTS.md` 规约：LLM 读 PDF → 与用户讨论 → 写笔记 → 更新概念页与索引 → 记日志。仓库的日常组织、导航、综述由 LLM 全权负责，人负责方向与审稿。
 
+如果你在另一个私有 vault 中维护原始论文库，可以用同步脚本更新本仓库的文本层。脚本不会复制 PDF，并会修正图片路径和原文链接：
+
+```bash
+python scripts/sync_from_private.py /path/to/private-vault
+```
+
 ## 许可 | License
 
 - **内容**（`content/` 下的笔记、wiki 页、arch 文档）：[CC BY 4.0](LICENSE) — 可自由分享与改编，需署名并注明修改。

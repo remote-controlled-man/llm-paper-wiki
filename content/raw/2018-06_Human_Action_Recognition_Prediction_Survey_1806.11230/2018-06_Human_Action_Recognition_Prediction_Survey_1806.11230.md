@@ -20,7 +20,7 @@ original_pdf_filename: "Human Action Recognition and Prediction (A Survey).pdf"
 
 # Human Action Recognition and Prediction (A Survey)
 
-原文 PDF： [[2018-06_Human_Action_Recognition_Prediction_Survey_1806.11230.pdf]]
+原文 PDF： [arXiv:1806.11230](https://arxiv.org/abs/1806.11230)
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

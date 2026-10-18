@@ -25,7 +25,7 @@ updated: 2026-06-01
 
 # Agentic Audio Moderator vs Human Moderator in Think-Aloud Usability Testing
 
-原文 PDF：[[2026_CHI_Agentic_Audio_Moderator_Usability_Testing.pdf]]
+原文 PDF：未随本站公开（版权原因）
 
 一句话结论：这篇不是 Thinking Machines 那种“原生 interaction model”论文，而是一个比较具体的**实时语音 agent harness + prompt/workflow 架构 + RCT 用户研究**。它很值得读，因为它暴露了当前 LLM/audio agent 在真实交互里的关键问题：能跑流程，但插话时机、社交存在感、上下文敏感度和信任关系明显弱于人。
 
@@ -190,7 +190,7 @@ GSR 不是 agent 的实时输入。论文用它做事后统计，而且 8 个样
 
 它真正给出的控制机制是三层 prompt 和流程化 agent：
 
-![Figure 1: moderation style and layered architecture](assets/fig1_moderation_style_architecture.png)
+![Figure 1: moderation style and layered architecture](raw/2026_CHI_Agentic_Audio_Moderator_Usability_Testing/assets/fig1_moderation_style_architecture.png)
 
 核心结构：
 
@@ -200,7 +200,7 @@ GSR 不是 agent 的实时输入。论文用它做事后统计，而且 8 个样
 
 部署结构如下：
 
-![Figure 2: Coze/Doubao system architecture](assets/fig2_coze_doubao_system_architecture.png)
+![Figure 2: Coze/Doubao system architecture](raw/2026_CHI_Agentic_Audio_Moderator_Usability_Testing/assets/fig2_coze_doubao_system_architecture.png)
 
 可以这样理解：
 
@@ -244,7 +244,7 @@ User speech/audio
 
 最值得我们看的是它从 multi-agent 退回 single-agent 的过程：
 
-![Table 3: prototype evolution](assets/table3_prototype_evolution.png)
+![Table 3: prototype evolution](raw/2026_CHI_Agentic_Audio_Moderator_Usability_Testing/assets/table3_prototype_evolution.png)
 
 四版原型：
 
@@ -296,7 +296,7 @@ Think-aloud usability testing 需要 moderator 持续引导用户说出想法。
 
 关键结果表：
 
-![Tables 7 and 8: perception and functional behavior ratings](assets/tables7_8_perception_functional_ratings.png)
+![Tables 7 and 8: perception and functional behavior ratings](raw/2026_CHI_Agentic_Audio_Moderator_Usability_Testing/assets/tables7_8_perception_functional_ratings.png)
 
 表 7 里 human moderator 在 Anthropomorphism、Animacy、Likeability、Intelligence、Social Presence 上都显著高于 AI，Safety 不显著。表 8 里 AI 只在“relevant guidance to facilitate think-aloud”上略高但不显著，其他多项 human 更高。
 

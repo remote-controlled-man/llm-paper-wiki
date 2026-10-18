@@ -14,7 +14,7 @@ primary_area: "01_Foundations"
 
 # StarGAN
 
-原文 PDF： [[StarGAN.pdf]]
+原文 PDF： [arXiv:1711.09020](https://arxiv.org/abs/1711.09020)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 

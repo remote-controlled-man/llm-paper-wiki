@@ -20,7 +20,7 @@ original_pdf_filename: "Driver Behavior Recognition Based on Deep Convolutional 
 
 # Driver Behavior Recognition Based on Deep Convolutional Neural Networks
 
-原文 PDF： [[2016_ICNC-FSKD_Driver_Behavior_Recognition_DCNN.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

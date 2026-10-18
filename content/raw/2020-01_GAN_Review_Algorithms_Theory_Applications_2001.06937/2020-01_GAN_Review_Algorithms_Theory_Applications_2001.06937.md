@@ -14,7 +14,7 @@ primary_area: "01_Foundations"
 
 # AReviewonGenerativeAdversarialNetworks Algorithms Theory andApplications
 
-原文 PDF： [[2020-01_GAN_Review_Algorithms_Theory_Applications_2001.06937.pdf]]
+原文 PDF： [arXiv:2001.06937](https://arxiv.org/abs/2001.06937)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 

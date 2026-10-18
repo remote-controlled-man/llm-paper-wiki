@@ -34,7 +34,7 @@ tags:
 
 > AgentHands 把语言回答变成 `speech + structured GestureEvents + spatial anchors + hand animation`，解决空间任务里纯文本/语音需要用户自己做 mental mapping 的问题。
 
-![Figure 1: AgentHands overview](assets/fig1_agenthands_overview.png)
+![Figure 1: AgentHands overview](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig1_agenthands_overview.png)
 
 图 1 说明它的目标：在 orchid-care 场景里，agent 可以指向气生根、演示浇水、提示排水、用禁止手势和视觉效果提醒不要过度施肥、用距离手势表达 30cm、最后和用户 high-five。
 
@@ -81,13 +81,13 @@ tags:
 
 这比上一篇的 `Aug` 明确很多：这里真的有 schema。
 
-![Figure 3: object registration pipeline](assets/fig3_object_registration_pipeline.png)
+![Figure 3: object registration pipeline](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig3_object_registration_pipeline.png)
 
 ### 1.2 Conversation Mode: 生成回答和手势
 
 对象注册完成后，用户开始问问题。核心 workflow 如下：
 
-![Figure 4: AgentHands workflow](assets/fig4_agenthands_workflow.png)
+![Figure 4: AgentHands workflow](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig4_agenthands_workflow.png)
 
 系统输入：
 
@@ -297,7 +297,7 @@ animation engine 执行手势
 
 然后作者定义了 6 个手势维度：
 
-![Figure 2: hand gesture taxonomy](assets/fig2_hand_gesture_taxonomy.png)
+![Figure 2: hand gesture taxonomy](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig2_hand_gesture_taxonomy.png)
 
 | 维度 | 含义 | 对机器人/agent 的启发 |
 |---|---|---|
@@ -317,7 +317,7 @@ animation engine 执行手势
 
 作者把手势库分成三类：
 
-![Figure 5: gesture library](assets/fig5_gesture_library.png)
+![Figure 5: gesture library](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig5_gesture_library.png)
 
 | 类别 | 例子 | 用途 |
 |---|---|---|
@@ -380,7 +380,7 @@ TTS 生成语音后，系统要知道“当前播放到哪个词”。论文里�
 
 这篇没有训练 loss，也没有神经网络模型公式。真正的计算部分主要在 object registration 的 3D bounding box 生成。
 
-![Algorithm 1: 3D bounding box generation](assets/algorithm1_3d_bbox_generation.png)
+![Algorithm 1: 3D bounding box generation](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/algorithm1_3d_bbox_generation.png)
 
 这个算法输入：
 
@@ -445,7 +445,7 @@ XR 提供了感知和显示能力，但很多 XR assistant 仍然依赖文字、
 
 用户研究显示 AgentHands 在空间理解和体验上优于 baseline：
 
-![Figure 8: user study results](assets/fig8_user_study_results.png)
+![Figure 8: user study results](raw/2026_CHI_AgentHands_Spatially_Grounded_Agent_Conversations_XR/assets/fig8_user_study_results.png)
 
 显著提升的项目包括：
 

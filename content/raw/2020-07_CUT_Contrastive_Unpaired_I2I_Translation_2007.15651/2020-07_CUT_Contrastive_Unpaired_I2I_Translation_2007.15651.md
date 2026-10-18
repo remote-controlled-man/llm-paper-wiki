@@ -20,7 +20,7 @@ original_pdf_filename: "Contrastive Learning for Unpaired.pdf"
 
 # Contrastive Learning for Unpaired
 
-原文 PDF： [[2020-07_CUT_Contrastive_Unpaired_I2I_Translation_2007.15651.pdf]]
+原文 PDF： [arXiv:2007.15651](https://arxiv.org/abs/2007.15651)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

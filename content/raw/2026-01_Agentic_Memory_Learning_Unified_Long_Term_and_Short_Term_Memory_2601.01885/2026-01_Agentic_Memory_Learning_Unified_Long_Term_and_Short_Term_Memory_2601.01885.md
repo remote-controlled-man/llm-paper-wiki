@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2026-01 Agentic Memory Learning Unified Long-Term and Short-Term Memory Management for LLM Agents 2601.01885
 
-原文 PDF： [[2026-01_Agentic_Memory_Learning_Unified_Long_Term_and_Short_Term_Memory_2601.01885.pdf]]
+原文 PDF： [arXiv:2601.01885](https://arxiv.org/abs/2601.01885)
 
 所属分类：03_Agents_Memory_RAG/04_Frontier_Agent_Memory_2025_2026
 

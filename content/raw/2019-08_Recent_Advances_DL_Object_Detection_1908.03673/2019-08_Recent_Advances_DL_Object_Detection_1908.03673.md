@@ -20,7 +20,7 @@ original_pdf_filename: "Recent Advances in Deep Learning for ObjectDetection.pdf
 
 # Recent Advances in Deep Learning for ObjectDetection
 
-原文 PDF： [[2019-08_Recent_Advances_DL_Object_Detection_1908.03673.pdf]]
+原文 PDF： [arXiv:1908.03673](https://arxiv.org/abs/1908.03673)
 
 所属分类：02_CV_Perception/01_Object_Detection
 

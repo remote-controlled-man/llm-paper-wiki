@@ -15,7 +15,7 @@ primary_area: "01_Foundations"
 
 # Sequence to Sequence Learning
 
-原文 PDF： [[Sequence_to_Sequence_Learning.pdf]]
+原文 PDF： [arXiv:1409.3215](https://arxiv.org/abs/1409.3215)
 
 所属分类：01_Core_ML_Foundations/03_Sequence_Modeling
 

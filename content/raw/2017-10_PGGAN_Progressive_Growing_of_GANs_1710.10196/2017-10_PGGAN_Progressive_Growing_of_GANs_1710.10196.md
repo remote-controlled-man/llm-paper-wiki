@@ -14,7 +14,7 @@ primary_area: "01_Foundations"
 
 # PROGRESSIVE GROWING OF GANS FOR IMPROVED QUALITY, STABILITY, AND VARIATION
 
-原文 PDF： [[2017-10_PGGAN_Progressive_Growing_of_GANs_1710.10196.pdf]]
+原文 PDF： [arXiv:1710.10196](https://arxiv.org/abs/1710.10196)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 

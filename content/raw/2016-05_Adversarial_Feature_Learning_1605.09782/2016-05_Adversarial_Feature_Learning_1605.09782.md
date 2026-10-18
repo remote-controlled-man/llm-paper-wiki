@@ -20,7 +20,7 @@ original_pdf_filename: "ADVERSARIAL FEATURE LEARNING.pdf"
 
 # ADVERSARIAL FEATURE LEARNING
 
-原文 PDF： [[2016-05_Adversarial_Feature_Learning_1605.09782.pdf]]
+原文 PDF： [arXiv:1605.09782](https://arxiv.org/abs/1605.09782)
 
 所属分类：02_CV_Perception/05_Image_Restoration_Translation_Medical
 

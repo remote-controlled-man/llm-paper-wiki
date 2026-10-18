@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # A Conditional Companion LLMs Mental Health
 
-原文 PDF： [[2026_CHI_A_Conditional_Companion_LLMs_Mental_Health.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：长期记忆、陪伴关系与隐私
 

@@ -20,7 +20,7 @@ original_pdf_filename: "Two-Stream Convolutional Networks for Action Recognition
 
 # Two-Stream Convolutional Networks for Action Recognition in Videos
 
-原文 PDF： [[2014-06_Two-Stream_ConvNets_Action_Recognition_1406.2199.pdf]]
+原文 PDF： [arXiv:1406.2199](https://arxiv.org/abs/1406.2199)
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

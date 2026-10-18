@@ -20,7 +20,7 @@ primary_area: "03_Agents"
 
 # Large Multimodal Agents Springer Survey
 
-原文 PDF： [[2025_SpringerVisualIntelligence_Large_Multimodal_Agents_Survey.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：基础综述
 

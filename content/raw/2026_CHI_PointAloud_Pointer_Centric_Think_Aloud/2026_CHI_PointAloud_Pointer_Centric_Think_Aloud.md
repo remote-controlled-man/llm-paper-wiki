@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # PointAloud Pointer Centric Think Aloud
 
-原文 PDF： [[2026_CHI_PointAloud_Pointer_Centric_Think_Aloud.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：交互模型：指令与 Grounding
 

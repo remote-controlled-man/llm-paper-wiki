@@ -271,7 +271,7 @@ EOI 是 `end-of-IPU`，即 IPU 的结束点。
 - 如果 overlap 超过 240 ms，就认为不清楚，排除。
 - 如果到下一个 IPU 的 pause 超过 1 秒，也排除。
 
-![Turn-taking target definitions](assets/fig1_turn_taking_targets.png)
+![Turn-taking target definitions](raw/2026_Synchronization_Turn_Taking_Full_Duplex_Speech_Dialogue_Models/assets/fig1_turn_taking_targets.png)
 
 ### 4.5 白话版：EOI 和 Hold/Non-Hold 到底差在哪？
 
@@ -376,7 +376,7 @@ $$
 - negative lag 表示 B leading A。
 - positive lag 表示 A leading B。
 
-![Internal representation synchronization via linear CKA](assets/fig2_internal_cka_synchronization.png)
+![Internal representation synchronization via linear CKA](raw/2026_Synchronization_Turn_Taking_Full_Duplex_Speech_Dialogue_Models/assets/fig2_internal_cka_synchronization.png)
 
 ### 5.2.1 白话版：CKA 在测什么？
 
@@ -584,7 +584,7 @@ speech / multimodal model hidden states
 
 ### 6.2 End-of-IPU prediction
 
-![End-of-IPU prediction results](assets/fig3_end_of_ipu_prediction.png)
+![End-of-IPU prediction results](raw/2026_Synchronization_Turn_Taking_Full_Duplex_Speech_Dialogue_Models/assets/fig3_end_of_ipu_prediction.png)
 
 图 3 说明：
 
@@ -646,7 +646,7 @@ Perception 更难，因为它要从对方语音线索中推断对方的边界。
 
 ### 6.3 Hold vs. Non-Hold prediction
 
-![Hold vs Non-Hold prediction results](assets/fig4_hold_non_hold_prediction.png)
+![Hold vs Non-Hold prediction results](raw/2026_Synchronization_Turn_Taking_Full_Duplex_Speech_Dialogue_Models/assets/fig4_hold_non_hold_prediction.png)
 
 图 4 说明：
 

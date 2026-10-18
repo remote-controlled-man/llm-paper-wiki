@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Proactive GenAI Agent Roles Collaborative Problem Solving
 
-原文 PDF： [[2026_CHI_Proactive_GenAI_Agent_Roles_Collaborative_Problem_Solving.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：Agent Harness：控制与透明度
 

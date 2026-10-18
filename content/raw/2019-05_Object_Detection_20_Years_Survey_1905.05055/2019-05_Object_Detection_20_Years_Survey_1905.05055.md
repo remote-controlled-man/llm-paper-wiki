@@ -20,7 +20,7 @@ original_pdf_filename: "Object Detection in 20 Years -- A Survey.pdf"
 
 # Object Detection in 20 Years -- A Survey
 
-原文 PDF： [[2019-05_Object_Detection_20_Years_Survey_1905.05055.pdf]]
+原文 PDF： [arXiv:1905.05055](https://arxiv.org/abs/1905.05055)
 
 所属分类：02_CV_Perception/01_Object_Detection
 

@@ -23,7 +23,7 @@ Agent Lightning 的核心贡献不是又做一个 agent benchmark，而是提出
 
 换句话说，它试图回答：如果我已经有 LangChain / OpenAI Agents SDK / AutoGen / 自己写的 agent，怎么在不重写 agent 的情况下，把真实执行数据接入 RL fine-tuning？
 
-![Agent Lightning overview](assets/fig1_overview.png)
+![Agent Lightning overview](raw/2025-08_Agent_Lightning_2508.03680/assets/fig1_overview.png)
 
 ## 这篇放在阅读路线里的位置
 
@@ -90,7 +90,7 @@ execution_RL(x, k) = { (input_t, output_t, r_t) }_{t=1..T}, output_t = pi_theta(
 
 这里 `input_t` 就是当前这次 LLM 调用实际看到的 prompt/context，`output_t` 是这次 LLM 生成的完整响应。工具调用本身通常不训练，但工具输出会影响后续 state，因此会进入后续 LLM input。
 
-![Unified data interface](assets/fig2_unified_data_interface.png)
+![Unified data interface](raw/2025-08_Agent_Lightning_2508.03680/assets/fig2_unified_data_interface.png)
 
 图 2 的 RAG 例子很好理解：
 
@@ -122,7 +122,7 @@ LightningRL 的思路是 hierarchical RL：
 1. Episode/action 层：把一次完整 agent 任务的 return 分配到多次 LLM call / transition 上。
 2. Token 层：对每条 transition 内部的 token generation 用现有单轮 LLM RL 算法优化。
 
-![LightningRL algorithm](assets/fig3_lightningrl_algorithm.png)
+![LightningRL algorithm](raw/2025-08_Agent_Lightning_2508.03680/assets/fig3_lightningrl_algorithm.png)
 
 图 3 对比了三种训练组织方式：
 
@@ -142,7 +142,7 @@ Agent Lightning 的系统架构把训练服务和 agent 运行环境拆开：
 - Lightning Client：运行用户已有 agent，采集 trace/reward，把数据回传给 server。
 - Agent runtime：负责并发执行 agent、错误处理、数据采集、环境/reward 服务连接。
 
-![Training-Agent Disaggregation architecture](assets/fig4_training_agent_disaggregation.png)
+![Training-Agent Disaggregation architecture](raw/2025-08_Agent_Lightning_2508.03680/assets/fig4_training_agent_disaggregation.png)
 
 这个设计的工程意义很大：
 
@@ -178,7 +178,7 @@ Agent Lightning 的系统架构把训练服务和 agent 运行环境拆开：
 
 实验不是在证明某个 benchmark SOTA，而是在证明这个框架可以接入不同 agent 框架和任务，并让 reward 稳定上升。
 
-![Experiment settings](assets/table1_experiment_settings.png)
+![Experiment settings](raw/2025-08_Agent_Lightning_2508.03680/assets/table1_experiment_settings.png)
 
 三组实验分别覆盖：
 
@@ -190,7 +190,7 @@ Agent Lightning 的系统架构把训练服务和 agent 运行环境拆开：
 
 任务流程是：SQL writer 生成 SQL，SQL executor 执行，checker 判断 SQL 和检索信息是否足够，rewriter 可能改写 SQL 或生成最终答案。三个角色用同一个 LLM 加不同 prompt 扮演，但训练时只选择性优化 SQL writer 和 rewriter。
 
-![Text-to-SQL reward curves](assets/fig5_text_to_sql_reward_curves.png)
+![Text-to-SQL reward curves](raw/2025-08_Agent_Lightning_2508.03680/assets/fig5_text_to_sql_reward_curves.png)
 
 这组说明 Agent Lightning 能在多角色 workflow 里只训练部分 transition，而不是把整条轨迹都硬塞进 loss。
 
@@ -204,7 +204,7 @@ R = 0.9 * R_correctness + 0.1 * R_format
 
 其中 correctness 用答案 word-level F1，format 要求输出满足 `<think>...</think>`、`<query>...</query>`、`<answer>...</answer>` 这样的格式。
 
-![RAG reward curves](assets/fig6_rag_reward_curves.png)
+![RAG reward curves](raw/2025-08_Agent_Lightning_2508.03680/assets/fig6_rag_reward_curves.png)
 
 这组说明 transition 方式可以训练 query formulation + answer generation，但它仍依赖可计算 reward；如果 verifier 很弱，训练信号也会弱。
 
@@ -212,7 +212,7 @@ R = 0.9 * R_correctness + 0.1 * R_format
 
 任务是用 calculator tool 解决数学问题。LLM 要决定何时调用 calculator、如何解释工具输出、如何整合成最终答案。
 
-![Calculator reward curves](assets/fig7_calculator_reward_curves.png)
+![Calculator reward curves](raw/2025-08_Agent_Lightning_2508.03680/assets/fig7_calculator_reward_curves.png)
 
 这组说明它能接 AutoGen 风格工具调用 agent，并在工具增强推理任务里让 reward 上升。
 

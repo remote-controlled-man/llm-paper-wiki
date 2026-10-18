@@ -14,7 +14,7 @@ primary_area: "03_Agents"
 
 # 2025-12 Memory in the Age of AI Agents 2512.13564
 
-原文 PDF： [[2025-12_Memory_in_the_Age_of_AI_Agents_2512.13564.pdf]]
+原文 PDF： [arXiv:2512.13564](https://arxiv.org/abs/2512.13564)
 
 所属分类：03_Agents_Memory_RAG/01_Memory_and_Agent_Surveys
 

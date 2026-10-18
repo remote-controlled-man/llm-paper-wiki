@@ -20,7 +20,7 @@ original_pdf_filename: "基于深度学习的人体行为检测方法研究综�
 
 # 基于深度学习的人体行为检测方法研究综述 沈加炜
 
-原文 PDF： [[2023_JSJYXDH_Human_Action_Detection_Survey_ShenJiawei.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/02_Human_Action_Pose_Behavior
 

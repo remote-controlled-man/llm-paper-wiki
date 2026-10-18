@@ -21,7 +21,7 @@ created: 2026-05-30
 
 # LLM Powered Embodied Agents
 
-原文 PDF： [[2026_CHI_LLM_Guide_VR_Accessibility_BLV.pdf]]
+原文 PDF： [arXiv:2603.09964v2](https://arxiv.org/abs/2603.09964v2)
 
 所属分类：多模态具身感知
 

@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Long Term Interactions With Social Robots Review
 
-原文 PDF： [[2025_Long_Term_Interactions_With_Social_Robots_Review.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：基础综述
 

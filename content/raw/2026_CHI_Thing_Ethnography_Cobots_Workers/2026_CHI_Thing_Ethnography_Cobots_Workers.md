@@ -19,7 +19,7 @@ created: 2026-05-30
 
 # Thing Ethnography Cobots Workers
 
-原文 PDF： [[2026_CHI_Thing_Ethnography_Cobots_Workers.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：机器人行为与 HRI 表达
 

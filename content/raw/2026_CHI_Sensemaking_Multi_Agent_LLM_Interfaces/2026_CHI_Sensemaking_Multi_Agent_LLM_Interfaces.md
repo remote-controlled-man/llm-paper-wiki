@@ -20,7 +20,7 @@ created: 2026-05-30
 
 # Sensemaking Multi Agent LLM Interfaces
 
-原文 PDF： [[2026_CHI_Sensemaking_Multi_Agent_LLM_Interfaces.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：Agent Harness：控制与透明度
 

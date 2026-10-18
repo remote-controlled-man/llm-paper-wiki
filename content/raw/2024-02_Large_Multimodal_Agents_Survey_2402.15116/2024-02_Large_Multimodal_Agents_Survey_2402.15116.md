@@ -20,7 +20,7 @@ primary_area: "03_Agents"
 
 # Large Multimodal Agents Survey
 
-原文 PDF： [[2024-02_Large_Multimodal_Agents_Survey_2402.15116.pdf]]
+原文 PDF： [arXiv:2402.15116](https://arxiv.org/abs/2402.15116)
 
 所属分类：基础综述
 

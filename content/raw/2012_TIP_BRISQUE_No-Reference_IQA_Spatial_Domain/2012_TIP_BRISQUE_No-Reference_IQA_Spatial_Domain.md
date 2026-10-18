@@ -20,7 +20,7 @@ original_pdf_filename: "BRISQUE.pdf"
 
 # BRISQUE
 
-原文 PDF： [[2012_TIP_BRISQUE_No-Reference_IQA_Spatial_Domain.pdf]]
+原文 PDF： 未随本站公开（版权原因）
 
 所属分类：02_CV_Perception/04_Image_Quality_Assessment
 

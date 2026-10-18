@@ -14,7 +14,7 @@ primary_area: "01_Foundations"
 
 # ConditionalGenerativeAdversarialNets
 
-原文 PDF： [[2014-11_Conditional_GAN_1411.1784.pdf]]
+原文 PDF： [arXiv:1411.1784](https://arxiv.org/abs/1411.1784)
 
 所属分类：01_Core_ML_Foundations/01_GANs_and_Image_Generation
 
